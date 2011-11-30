@@ -1,0 +1,714 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* CopenCycleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* CopenCycleAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* CopenCycleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* CopenCycleViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* CopenCycleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* CopenCycleViewController.m */; };
+		BE1589EA10CB7303009D957D /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BE1589E910CB7303009D957D /* Icon.png */; };
+		BE264B8510C4BAF10026DCD6 /* mainSplash.png in Resources */ = {isa = PBXBuildFile; fileRef = BE264B8410C4BAF10026DCD6 /* mainSplash.png */; };
+		BE264B8810C4BC090026DCD6 /* CopenCycleSplashViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE264B8710C4BC090026DCD6 /* CopenCycleSplashViewController.xib */; };
+		BE264B8B10C4BCBA0026DCD6 /* CopenCycleMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE264B8A10C4BCBA0026DCD6 /* CopenCycleMainViewController.xib */; };
+		BE264B8E10C4BCE60026DCD6 /* mainBg.png in Resources */ = {isa = PBXBuildFile; fileRef = BE264B8D10C4BCE60026DCD6 /* mainBg.png */; };
+		BE264B9110C4BE400026DCD6 /* menuHome.png in Resources */ = {isa = PBXBuildFile; fileRef = BE264B8F10C4BE400026DCD6 /* menuHome.png */; };
+		BE264B9210C4BE400026DCD6 /* menuHome_on.png in Resources */ = {isa = PBXBuildFile; fileRef = BE264B9010C4BE400026DCD6 /* menuHome_on.png */; };
+		BE264B9510C4BF960026DCD6 /* menuBatt.png in Resources */ = {isa = PBXBuildFile; fileRef = BE264B9310C4BF960026DCD6 /* menuBatt.png */; };
+		BE264B9610C4BF960026DCD6 /* menuBlank.png in Resources */ = {isa = PBXBuildFile; fileRef = BE264B9410C4BF960026DCD6 /* menuBlank.png */; };
+		BE264B9E10C4C23B0026DCD6 /* mainAnalyze.png in Resources */ = {isa = PBXBuildFile; fileRef = BE264B9810C4C23B0026DCD6 /* mainAnalyze.png */; };
+		BE264B9F10C4C23B0026DCD6 /* mainAnalyze_on.png in Resources */ = {isa = PBXBuildFile; fileRef = BE264B9910C4C23B0026DCD6 /* mainAnalyze_on.png */; };
+		BE264BA010C4C23B0026DCD6 /* mainRide.png in Resources */ = {isa = PBXBuildFile; fileRef = BE264B9A10C4C23B0026DCD6 /* mainRide.png */; };
+		BE264BA110C4C23B0026DCD6 /* mainRide_on.png in Resources */ = {isa = PBXBuildFile; fileRef = BE264B9B10C4C23B0026DCD6 /* mainRide_on.png */; };
+		BE264BA210C4C23B0026DCD6 /* mainShare.png in Resources */ = {isa = PBXBuildFile; fileRef = BE264B9C10C4C23B0026DCD6 /* mainShare.png */; };
+		BE264BA310C4C23B0026DCD6 /* mainShare_on.png in Resources */ = {isa = PBXBuildFile; fileRef = BE264B9D10C4C23B0026DCD6 /* mainShare_on.png */; };
+		BE264BC710C4C6670026DCD6 /* CopenCycleMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE264BC610C4C6670026DCD6 /* CopenCycleMainViewController.m */; };
+		BE264BCE10C4C7870026DCD6 /* CopenCycleSplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE264BCD10C4C7870026DCD6 /* CopenCycleSplashViewController.m */; };
+		BE264C2510C4CCF80026DCD6 /* CopenCycleRideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE264C2310C4CCF80026DCD6 /* CopenCycleRideViewController.m */; };
+		BE264C2610C4CCF80026DCD6 /* CopenCycleRideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE264C2410C4CCF80026DCD6 /* CopenCycleRideViewController.xib */; };
+		BE264C3210C4CD620026DCD6 /* rideGearDn.png in Resources */ = {isa = PBXBuildFile; fileRef = BE264C2C10C4CD620026DCD6 /* rideGearDn.png */; };
+		BE264C3310C4CD620026DCD6 /* rideGearDn_off.png in Resources */ = {isa = PBXBuildFile; fileRef = BE264C2D10C4CD620026DCD6 /* rideGearDn_off.png */; };
+		BE264C3410C4CD620026DCD6 /* rideGearDn_on.png in Resources */ = {isa = PBXBuildFile; fileRef = BE264C2E10C4CD620026DCD6 /* rideGearDn_on.png */; };
+		BE264C3510C4CD620026DCD6 /* rideGearUp.png in Resources */ = {isa = PBXBuildFile; fileRef = BE264C2F10C4CD620026DCD6 /* rideGearUp.png */; };
+		BE264C3610C4CD620026DCD6 /* rideGearUp_off.png in Resources */ = {isa = PBXBuildFile; fileRef = BE264C3010C4CD620026DCD6 /* rideGearUp_off.png */; };
+		BE264C3710C4CD620026DCD6 /* rideGearUp_on.png in Resources */ = {isa = PBXBuildFile; fileRef = BE264C3110C4CD620026DCD6 /* rideGearUp_on.png */; };
+		BE264C3E10C4CDF10026DCD6 /* rideMotorDn.png in Resources */ = {isa = PBXBuildFile; fileRef = BE264C3810C4CDF10026DCD6 /* rideMotorDn.png */; };
+		BE264C3F10C4CDF10026DCD6 /* rideMotorDn_off.png in Resources */ = {isa = PBXBuildFile; fileRef = BE264C3910C4CDF10026DCD6 /* rideMotorDn_off.png */; };
+		BE264C4010C4CDF10026DCD6 /* rideMotorDn_on.png in Resources */ = {isa = PBXBuildFile; fileRef = BE264C3A10C4CDF10026DCD6 /* rideMotorDn_on.png */; };
+		BE264C4110C4CDF10026DCD6 /* rideMotorUp.png in Resources */ = {isa = PBXBuildFile; fileRef = BE264C3B10C4CDF10026DCD6 /* rideMotorUp.png */; };
+		BE264C4210C4CDF10026DCD6 /* rideMotorUp_off.png in Resources */ = {isa = PBXBuildFile; fileRef = BE264C3C10C4CDF10026DCD6 /* rideMotorUp_off.png */; };
+		BE264C4310C4CDF10026DCD6 /* rideMotorUp_on.png in Resources */ = {isa = PBXBuildFile; fileRef = BE264C3D10C4CDF10026DCD6 /* rideMotorUp_on.png */; };
+		BE264C4510C4D0000026DCD6 /* rideLoopBg.png in Resources */ = {isa = PBXBuildFile; fileRef = BE264C4410C4D0000026DCD6 /* rideLoopBg.png */; };
+		BE264C4C10C4D1710026DCD6 /* menuAnalyze.png in Resources */ = {isa = PBXBuildFile; fileRef = BE264C4610C4D1710026DCD6 /* menuAnalyze.png */; };
+		BE264C4D10C4D1710026DCD6 /* menuAnalyze_on.png in Resources */ = {isa = PBXBuildFile; fileRef = BE264C4710C4D1710026DCD6 /* menuAnalyze_on.png */; };
+		BE264C4E10C4D1710026DCD6 /* menuRide.png in Resources */ = {isa = PBXBuildFile; fileRef = BE264C4810C4D1710026DCD6 /* menuRide.png */; };
+		BE264C4F10C4D1710026DCD6 /* menuRide_on.png in Resources */ = {isa = PBXBuildFile; fileRef = BE264C4910C4D1710026DCD6 /* menuRide_on.png */; };
+		BE264C5010C4D1710026DCD6 /* menuShare.png in Resources */ = {isa = PBXBuildFile; fileRef = BE264C4A10C4D1710026DCD6 /* menuShare.png */; };
+		BE264C5110C4D1710026DCD6 /* menuShare_on.png in Resources */ = {isa = PBXBuildFile; fileRef = BE264C4B10C4D1710026DCD6 /* menuShare_on.png */; };
+		BE264C5310C4D3310026DCD6 /* rideInfo.png in Resources */ = {isa = PBXBuildFile; fileRef = BE264C5210C4D3310026DCD6 /* rideInfo.png */; };
+		BE264C5510C4D3CE0026DCD6 /* rideMotorOff.png in Resources */ = {isa = PBXBuildFile; fileRef = BE264C5410C4D3CE0026DCD6 /* rideMotorOff.png */; };
+		BE264C5710C4D4E20026DCD6 /* rideGear1.png in Resources */ = {isa = PBXBuildFile; fileRef = BE264C5610C4D4E20026DCD6 /* rideGear1.png */; };
+		BE264C5E10C4D7460026DCD6 /* rideLoopCalories.png in Resources */ = {isa = PBXBuildFile; fileRef = BE264C5D10C4D7460026DCD6 /* rideLoopCalories.png */; };
+		BE264C6610C4E0060026DCD6 /* CopenCycleAnalyzeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE264C6410C4E0060026DCD6 /* CopenCycleAnalyzeViewController.m */; };
+		BE264C6710C4E0060026DCD6 /* CopenCycleAnalyzeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE264C6510C4E0060026DCD6 /* CopenCycleAnalyzeViewController.xib */; };
+		BE264C7D10C4E1C90026DCD6 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE264C7C10C4E1C90026DCD6 /* MapKit.framework */; };
+		BE264C8810C4E34A0026DCD6 /* titleBack.png in Resources */ = {isa = PBXBuildFile; fileRef = BE264C8610C4E34A0026DCD6 /* titleBack.png */; };
+		BE264C8910C4E34A0026DCD6 /* titleBack_on.png in Resources */ = {isa = PBXBuildFile; fileRef = BE264C8710C4E34A0026DCD6 /* titleBack_on.png */; };
+		BE6F86A410C606AA009E1573 /* analyzeCommunity.png in Resources */ = {isa = PBXBuildFile; fileRef = BE6F869B10C606AA009E1573 /* analyzeCommunity.png */; };
+		BE6F86A510C606AA009E1573 /* analyzeCommunity_on.png in Resources */ = {isa = PBXBuildFile; fileRef = BE6F869C10C606AA009E1573 /* analyzeCommunity_on.png */; };
+		BE6F86A610C606AA009E1573 /* analyzeEnvironment.png in Resources */ = {isa = PBXBuildFile; fileRef = BE6F869D10C606AA009E1573 /* analyzeEnvironment.png */; };
+		BE6F86A710C606AA009E1573 /* analyzeEnvironment_on.png in Resources */ = {isa = PBXBuildFile; fileRef = BE6F869E10C606AA009E1573 /* analyzeEnvironment_on.png */; };
+		BE6F86A810C606AA009E1573 /* analyzeGreenMile.png in Resources */ = {isa = PBXBuildFile; fileRef = BE6F869F10C606AA009E1573 /* analyzeGreenMile.png */; };
+		BE6F86A910C606AA009E1573 /* analyzeGreenMile_on.png in Resources */ = {isa = PBXBuildFile; fileRef = BE6F86A010C606AA009E1573 /* analyzeGreenMile_on.png */; };
+		BE6F86AA10C606AA009E1573 /* analyzeHealth.png in Resources */ = {isa = PBXBuildFile; fileRef = BE6F86A110C606AA009E1573 /* analyzeHealth.png */; };
+		BE6F86AB10C606AA009E1573 /* analyzeHealth_on.png in Resources */ = {isa = PBXBuildFile; fileRef = BE6F86A210C606AA009E1573 /* analyzeHealth_on.png */; };
+		BE6F86AC10C606AA009E1573 /* analyzeMyLastTrip.png in Resources */ = {isa = PBXBuildFile; fileRef = BE6F86A310C606AA009E1573 /* analyzeMyLastTrip.png */; };
+		BE6F86AF10C608A3009E1573 /* titleAnalyze.png in Resources */ = {isa = PBXBuildFile; fileRef = BE6F86AD10C608A3009E1573 /* titleAnalyze.png */; };
+		BE6F86B010C608A3009E1573 /* titleInfoBlank.png in Resources */ = {isa = PBXBuildFile; fileRef = BE6F86AE10C608A3009E1573 /* titleInfoBlank.png */; };
+		BE6F86B910C60A9A009E1573 /* CopenCycleShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6F86B710C60A9A009E1573 /* CopenCycleShareViewController.m */; };
+		BE6F86BA10C60A9A009E1573 /* CopenCycleShareViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE6F86B810C60A9A009E1573 /* CopenCycleShareViewController.xib */; };
+		BE6F86D810C60B74009E1573 /* analyzeBg.png in Resources */ = {isa = PBXBuildFile; fileRef = BE6F86BC10C60B74009E1573 /* analyzeBg.png */; };
+		BE6F86D910C60B74009E1573 /* analyzeCommunityDetail.png in Resources */ = {isa = PBXBuildFile; fileRef = BE6F86BD10C60B74009E1573 /* analyzeCommunityDetail.png */; };
+		BE6F86DA10C60B74009E1573 /* analyzeEnvironmentDetail.png in Resources */ = {isa = PBXBuildFile; fileRef = BE6F86BE10C60B74009E1573 /* analyzeEnvironmentDetail.png */; };
+		BE6F86DB10C60B74009E1573 /* analyzeGraphView.png in Resources */ = {isa = PBXBuildFile; fileRef = BE6F86BF10C60B74009E1573 /* analyzeGraphView.png */; };
+		BE6F86DC10C60B74009E1573 /* analyzeGraphView_on.png in Resources */ = {isa = PBXBuildFile; fileRef = BE6F86C010C60B74009E1573 /* analyzeGraphView_on.png */; };
+		BE6F86DD10C60B74009E1573 /* analyzeHealthDetail.png in Resources */ = {isa = PBXBuildFile; fileRef = BE6F86C110C60B74009E1573 /* analyzeHealthDetail.png */; };
+		BE6F86DE10C60B74009E1573 /* analyzeMap.png in Resources */ = {isa = PBXBuildFile; fileRef = BE6F86C210C60B74009E1573 /* analyzeMap.png */; };
+		BE6F86DF10C60B74009E1573 /* analyzeMapView.png in Resources */ = {isa = PBXBuildFile; fileRef = BE6F86C310C60B74009E1573 /* analyzeMapView.png */; };
+		BE6F86E010C60B74009E1573 /* analyzeMapView_on.png in Resources */ = {isa = PBXBuildFile; fileRef = BE6F86C410C60B74009E1573 /* analyzeMapView_on.png */; };
+		BE6F86E110C60B74009E1573 /* analyzeShareThisTrip.png in Resources */ = {isa = PBXBuildFile; fileRef = BE6F86C510C60B74009E1573 /* analyzeShareThisTrip.png */; };
+		BE6F86E210C60B74009E1573 /* analyzeShareThisTrip_on.png in Resources */ = {isa = PBXBuildFile; fileRef = BE6F86C610C60B74009E1573 /* analyzeShareThisTrip_on.png */; };
+		BE6F86E310C60B74009E1573 /* rideGear2.png in Resources */ = {isa = PBXBuildFile; fileRef = BE6F86C710C60B74009E1573 /* rideGear2.png */; };
+		BE6F86E410C60B74009E1573 /* rideGear3.png in Resources */ = {isa = PBXBuildFile; fileRef = BE6F86C810C60B74009E1573 /* rideGear3.png */; };
+		BE6F86E510C60B74009E1573 /* rideLoopFriend.png in Resources */ = {isa = PBXBuildFile; fileRef = BE6F86C910C60B74009E1573 /* rideLoopFriend.png */; };
+		BE6F86E610C60B74009E1573 /* rideLoopPollution.png in Resources */ = {isa = PBXBuildFile; fileRef = BE6F86CA10C60B74009E1573 /* rideLoopPollution.png */; };
+		BE6F86E710C60B74009E1573 /* rideLoopWeather.png in Resources */ = {isa = PBXBuildFile; fileRef = BE6F86CB10C60B74009E1573 /* rideLoopWeather.png */; };
+		BE6F86E810C60B74009E1573 /* rideMotorAssist1.png in Resources */ = {isa = PBXBuildFile; fileRef = BE6F86CC10C60B74009E1573 /* rideMotorAssist1.png */; };
+		BE6F86E910C60B74009E1573 /* rideMotorAssist2.png in Resources */ = {isa = PBXBuildFile; fileRef = BE6F86CD10C60B74009E1573 /* rideMotorAssist2.png */; };
+		BE6F86EA10C60B74009E1573 /* rideMotorAssist3.png in Resources */ = {isa = PBXBuildFile; fileRef = BE6F86CE10C60B74009E1573 /* rideMotorAssist3.png */; };
+		BE6F86EB10C60B74009E1573 /* rideMotorExercise1.png in Resources */ = {isa = PBXBuildFile; fileRef = BE6F86CF10C60B74009E1573 /* rideMotorExercise1.png */; };
+		BE6F86EC10C60B74009E1573 /* rideMotorExercise2.png in Resources */ = {isa = PBXBuildFile; fileRef = BE6F86D010C60B74009E1573 /* rideMotorExercise2.png */; };
+		BE6F86ED10C60B74009E1573 /* rideMotorExercise3.png in Resources */ = {isa = PBXBuildFile; fileRef = BE6F86D110C60B74009E1573 /* rideMotorExercise3.png */; };
+		BE6F86EE10C60B74009E1573 /* titleAboutDataSharing.png in Resources */ = {isa = PBXBuildFile; fileRef = BE6F86D210C60B74009E1573 /* titleAboutDataSharing.png */; };
+		BE6F86EF10C60B74009E1573 /* titleAnalyzeCommunity.png in Resources */ = {isa = PBXBuildFile; fileRef = BE6F86D310C60B74009E1573 /* titleAnalyzeCommunity.png */; };
+		BE6F86F010C60B74009E1573 /* titleAnalyzeEnvironment.png in Resources */ = {isa = PBXBuildFile; fileRef = BE6F86D410C60B74009E1573 /* titleAnalyzeEnvironment.png */; };
+		BE6F86F110C60B74009E1573 /* titleAnalyzeHealth.png in Resources */ = {isa = PBXBuildFile; fileRef = BE6F86D510C60B74009E1573 /* titleAnalyzeHealth.png */; };
+		BE6F86F210C60B74009E1573 /* titleInfo.png in Resources */ = {isa = PBXBuildFile; fileRef = BE6F86D610C60B74009E1573 /* titleInfo.png */; };
+		BE6F86F310C60B74009E1573 /* titleInfo_on.png in Resources */ = {isa = PBXBuildFile; fileRef = BE6F86D710C60B74009E1573 /* titleInfo_on.png */; };
+		BE6F882110C63491009E1573 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE6F882010C63491009E1573 /* QuartzCore.framework */; };
+		BE7CE4D410B7174200FB5286 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = BE7CE4D310B7174200FB5286 /* Entitlements.plist */; };
+		BE91ACDB10B4376200A59C15 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE91ACDA10B4376200A59C15 /* AudioToolbox.framework */; };
+		BE91AD0A10B43CB200A59C15 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = BE91AD0910B43CB200A59C15 /* background.png */; };
+		BE91AD1710B4417F00A59C15 /* battery.png in Resources */ = {isa = PBXBuildFile; fileRef = BE91AD1510B4417F00A59C15 /* battery.png */; };
+		BE91AD1810B4417F00A59C15 /* bluetooth.png in Resources */ = {isa = PBXBuildFile; fileRef = BE91AD1610B4417F00A59C15 /* bluetooth.png */; };
+		BE91ADB710B470F500A59C15 /* gear-down.png in Resources */ = {isa = PBXBuildFile; fileRef = BE91ADB510B470F500A59C15 /* gear-down.png */; };
+		BE91ADB810B470F500A59C15 /* gear-up.png in Resources */ = {isa = PBXBuildFile; fileRef = BE91ADB610B470F500A59C15 /* gear-up.png */; };
+		BEEE6BCF11B7E86E001D0DB8 /* libExternalAccessory.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BEEE6BCE11B7E86E001D0DB8 /* libExternalAccessory.a */; };
+		BEF9655610C7938E0064D2A7 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEF9655510C7938E0064D2A7 /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* CopenCycleAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CopenCycleAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* CopenCycleAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CopenCycleAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* CopenCycle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CopenCycle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* CopenCycleViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CopenCycleViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* CopenCycleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CopenCycleViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* CopenCycleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CopenCycleViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* CopenCycle_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CopenCycle_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* CopenCycle-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CopenCycle-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		BE1589E910CB7303009D957D /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = Images/Icon.png; sourceTree = "<group>"; };
+		BE264B8410C4BAF10026DCD6 /* mainSplash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mainSplash.png; path = Images/mainSplash.png; sourceTree = "<group>"; };
+		BE264B8710C4BC090026DCD6 /* CopenCycleSplashViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CopenCycleSplashViewController.xib; sourceTree = "<group>"; };
+		BE264B8A10C4BCBA0026DCD6 /* CopenCycleMainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CopenCycleMainViewController.xib; sourceTree = "<group>"; };
+		BE264B8D10C4BCE60026DCD6 /* mainBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mainBg.png; path = Images/mainBg.png; sourceTree = "<group>"; };
+		BE264B8F10C4BE400026DCD6 /* menuHome.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = menuHome.png; path = Images/menuHome.png; sourceTree = "<group>"; };
+		BE264B9010C4BE400026DCD6 /* menuHome_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = menuHome_on.png; path = Images/menuHome_on.png; sourceTree = "<group>"; };
+		BE264B9310C4BF960026DCD6 /* menuBatt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = menuBatt.png; path = Images/menuBatt.png; sourceTree = "<group>"; };
+		BE264B9410C4BF960026DCD6 /* menuBlank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = menuBlank.png; path = Images/menuBlank.png; sourceTree = "<group>"; };
+		BE264B9810C4C23B0026DCD6 /* mainAnalyze.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mainAnalyze.png; path = Images/mainAnalyze.png; sourceTree = "<group>"; };
+		BE264B9910C4C23B0026DCD6 /* mainAnalyze_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mainAnalyze_on.png; path = Images/mainAnalyze_on.png; sourceTree = "<group>"; };
+		BE264B9A10C4C23B0026DCD6 /* mainRide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mainRide.png; path = Images/mainRide.png; sourceTree = "<group>"; };
+		BE264B9B10C4C23B0026DCD6 /* mainRide_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mainRide_on.png; path = Images/mainRide_on.png; sourceTree = "<group>"; };
+		BE264B9C10C4C23B0026DCD6 /* mainShare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mainShare.png; path = Images/mainShare.png; sourceTree = "<group>"; };
+		BE264B9D10C4C23B0026DCD6 /* mainShare_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mainShare_on.png; path = Images/mainShare_on.png; sourceTree = "<group>"; };
+		BE264BC510C4C6670026DCD6 /* CopenCycleMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CopenCycleMainViewController.h; sourceTree = "<group>"; };
+		BE264BC610C4C6670026DCD6 /* CopenCycleMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CopenCycleMainViewController.m; sourceTree = "<group>"; };
+		BE264BCC10C4C7870026DCD6 /* CopenCycleSplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CopenCycleSplashViewController.h; sourceTree = "<group>"; };
+		BE264BCD10C4C7870026DCD6 /* CopenCycleSplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CopenCycleSplashViewController.m; sourceTree = "<group>"; };
+		BE264C2210C4CCF80026DCD6 /* CopenCycleRideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CopenCycleRideViewController.h; sourceTree = "<group>"; };
+		BE264C2310C4CCF80026DCD6 /* CopenCycleRideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CopenCycleRideViewController.m; sourceTree = "<group>"; };
+		BE264C2410C4CCF80026DCD6 /* CopenCycleRideViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = CopenCycleRideViewController.xib; path = Classes/CopenCycleRideViewController.xib; sourceTree = "<group>"; };
+		BE264C2C10C4CD620026DCD6 /* rideGearDn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rideGearDn.png; path = Images/rideGearDn.png; sourceTree = "<group>"; };
+		BE264C2D10C4CD620026DCD6 /* rideGearDn_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rideGearDn_off.png; path = Images/rideGearDn_off.png; sourceTree = "<group>"; };
+		BE264C2E10C4CD620026DCD6 /* rideGearDn_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rideGearDn_on.png; path = Images/rideGearDn_on.png; sourceTree = "<group>"; };
+		BE264C2F10C4CD620026DCD6 /* rideGearUp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rideGearUp.png; path = Images/rideGearUp.png; sourceTree = "<group>"; };
+		BE264C3010C4CD620026DCD6 /* rideGearUp_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rideGearUp_off.png; path = Images/rideGearUp_off.png; sourceTree = "<group>"; };
+		BE264C3110C4CD620026DCD6 /* rideGearUp_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rideGearUp_on.png; path = Images/rideGearUp_on.png; sourceTree = "<group>"; };
+		BE264C3810C4CDF10026DCD6 /* rideMotorDn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rideMotorDn.png; path = Images/rideMotorDn.png; sourceTree = "<group>"; };
+		BE264C3910C4CDF10026DCD6 /* rideMotorDn_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rideMotorDn_off.png; path = Images/rideMotorDn_off.png; sourceTree = "<group>"; };
+		BE264C3A10C4CDF10026DCD6 /* rideMotorDn_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rideMotorDn_on.png; path = Images/rideMotorDn_on.png; sourceTree = "<group>"; };
+		BE264C3B10C4CDF10026DCD6 /* rideMotorUp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rideMotorUp.png; path = Images/rideMotorUp.png; sourceTree = "<group>"; };
+		BE264C3C10C4CDF10026DCD6 /* rideMotorUp_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rideMotorUp_off.png; path = Images/rideMotorUp_off.png; sourceTree = "<group>"; };
+		BE264C3D10C4CDF10026DCD6 /* rideMotorUp_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rideMotorUp_on.png; path = Images/rideMotorUp_on.png; sourceTree = "<group>"; };
+		BE264C4410C4D0000026DCD6 /* rideLoopBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rideLoopBg.png; path = Images/rideLoopBg.png; sourceTree = "<group>"; };
+		BE264C4610C4D1710026DCD6 /* menuAnalyze.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = menuAnalyze.png; path = Images/menuAnalyze.png; sourceTree = "<group>"; };
+		BE264C4710C4D1710026DCD6 /* menuAnalyze_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = menuAnalyze_on.png; path = Images/menuAnalyze_on.png; sourceTree = "<group>"; };
+		BE264C4810C4D1710026DCD6 /* menuRide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = menuRide.png; path = Images/menuRide.png; sourceTree = "<group>"; };
+		BE264C4910C4D1710026DCD6 /* menuRide_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = menuRide_on.png; path = Images/menuRide_on.png; sourceTree = "<group>"; };
+		BE264C4A10C4D1710026DCD6 /* menuShare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = menuShare.png; path = Images/menuShare.png; sourceTree = "<group>"; };
+		BE264C4B10C4D1710026DCD6 /* menuShare_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = menuShare_on.png; path = Images/menuShare_on.png; sourceTree = "<group>"; };
+		BE264C5210C4D3310026DCD6 /* rideInfo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rideInfo.png; path = Images/rideInfo.png; sourceTree = "<group>"; };
+		BE264C5410C4D3CE0026DCD6 /* rideMotorOff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rideMotorOff.png; path = Images/rideMotorOff.png; sourceTree = "<group>"; };
+		BE264C5610C4D4E20026DCD6 /* rideGear1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rideGear1.png; path = Images/rideGear1.png; sourceTree = "<group>"; };
+		BE264C5D10C4D7460026DCD6 /* rideLoopCalories.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rideLoopCalories.png; path = Images/rideLoopCalories.png; sourceTree = "<group>"; };
+		BE264C6310C4E0060026DCD6 /* CopenCycleAnalyzeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CopenCycleAnalyzeViewController.h; sourceTree = "<group>"; };
+		BE264C6410C4E0060026DCD6 /* CopenCycleAnalyzeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CopenCycleAnalyzeViewController.m; sourceTree = "<group>"; };
+		BE264C6510C4E0060026DCD6 /* CopenCycleAnalyzeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = CopenCycleAnalyzeViewController.xib; path = Classes/CopenCycleAnalyzeViewController.xib; sourceTree = "<group>"; };
+		BE264C7C10C4E1C90026DCD6 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		BE264C8610C4E34A0026DCD6 /* titleBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = titleBack.png; path = Images/titleBack.png; sourceTree = "<group>"; };
+		BE264C8710C4E34A0026DCD6 /* titleBack_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = titleBack_on.png; path = Images/titleBack_on.png; sourceTree = "<group>"; };
+		BE6F869B10C606AA009E1573 /* analyzeCommunity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = analyzeCommunity.png; path = Images/analyzeCommunity.png; sourceTree = "<group>"; };
+		BE6F869C10C606AA009E1573 /* analyzeCommunity_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = analyzeCommunity_on.png; path = Images/analyzeCommunity_on.png; sourceTree = "<group>"; };
+		BE6F869D10C606AA009E1573 /* analyzeEnvironment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = analyzeEnvironment.png; path = Images/analyzeEnvironment.png; sourceTree = "<group>"; };
+		BE6F869E10C606AA009E1573 /* analyzeEnvironment_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = analyzeEnvironment_on.png; path = Images/analyzeEnvironment_on.png; sourceTree = "<group>"; };
+		BE6F869F10C606AA009E1573 /* analyzeGreenMile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = analyzeGreenMile.png; path = Images/analyzeGreenMile.png; sourceTree = "<group>"; };
+		BE6F86A010C606AA009E1573 /* analyzeGreenMile_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = analyzeGreenMile_on.png; path = Images/analyzeGreenMile_on.png; sourceTree = "<group>"; };
+		BE6F86A110C606AA009E1573 /* analyzeHealth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = analyzeHealth.png; path = Images/analyzeHealth.png; sourceTree = "<group>"; };
+		BE6F86A210C606AA009E1573 /* analyzeHealth_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = analyzeHealth_on.png; path = Images/analyzeHealth_on.png; sourceTree = "<group>"; };
+		BE6F86A310C606AA009E1573 /* analyzeMyLastTrip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = analyzeMyLastTrip.png; path = Images/analyzeMyLastTrip.png; sourceTree = "<group>"; };
+		BE6F86AD10C608A3009E1573 /* titleAnalyze.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = titleAnalyze.png; path = Images/titleAnalyze.png; sourceTree = "<group>"; };
+		BE6F86AE10C608A3009E1573 /* titleInfoBlank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = titleInfoBlank.png; path = Images/titleInfoBlank.png; sourceTree = "<group>"; };
+		BE6F86B610C60A9A009E1573 /* CopenCycleShareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CopenCycleShareViewController.h; sourceTree = "<group>"; };
+		BE6F86B710C60A9A009E1573 /* CopenCycleShareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CopenCycleShareViewController.m; sourceTree = "<group>"; };
+		BE6F86B810C60A9A009E1573 /* CopenCycleShareViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = CopenCycleShareViewController.xib; path = Classes/CopenCycleShareViewController.xib; sourceTree = "<group>"; };
+		BE6F86BC10C60B74009E1573 /* analyzeBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = analyzeBg.png; path = Images/analyzeBg.png; sourceTree = "<group>"; };
+		BE6F86BD10C60B74009E1573 /* analyzeCommunityDetail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = analyzeCommunityDetail.png; path = Images/analyzeCommunityDetail.png; sourceTree = "<group>"; };
+		BE6F86BE10C60B74009E1573 /* analyzeEnvironmentDetail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = analyzeEnvironmentDetail.png; path = Images/analyzeEnvironmentDetail.png; sourceTree = "<group>"; };
+		BE6F86BF10C60B74009E1573 /* analyzeGraphView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = analyzeGraphView.png; path = Images/analyzeGraphView.png; sourceTree = "<group>"; };
+		BE6F86C010C60B74009E1573 /* analyzeGraphView_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = analyzeGraphView_on.png; path = Images/analyzeGraphView_on.png; sourceTree = "<group>"; };
+		BE6F86C110C60B74009E1573 /* analyzeHealthDetail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = analyzeHealthDetail.png; path = Images/analyzeHealthDetail.png; sourceTree = "<group>"; };
+		BE6F86C210C60B74009E1573 /* analyzeMap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = analyzeMap.png; path = Images/analyzeMap.png; sourceTree = "<group>"; };
+		BE6F86C310C60B74009E1573 /* analyzeMapView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = analyzeMapView.png; path = Images/analyzeMapView.png; sourceTree = "<group>"; };
+		BE6F86C410C60B74009E1573 /* analyzeMapView_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = analyzeMapView_on.png; path = Images/analyzeMapView_on.png; sourceTree = "<group>"; };
+		BE6F86C510C60B74009E1573 /* analyzeShareThisTrip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = analyzeShareThisTrip.png; path = Images/analyzeShareThisTrip.png; sourceTree = "<group>"; };
+		BE6F86C610C60B74009E1573 /* analyzeShareThisTrip_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = analyzeShareThisTrip_on.png; path = Images/analyzeShareThisTrip_on.png; sourceTree = "<group>"; };
+		BE6F86C710C60B74009E1573 /* rideGear2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rideGear2.png; path = Images/rideGear2.png; sourceTree = "<group>"; };
+		BE6F86C810C60B74009E1573 /* rideGear3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rideGear3.png; path = Images/rideGear3.png; sourceTree = "<group>"; };
+		BE6F86C910C60B74009E1573 /* rideLoopFriend.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rideLoopFriend.png; path = Images/rideLoopFriend.png; sourceTree = "<group>"; };
+		BE6F86CA10C60B74009E1573 /* rideLoopPollution.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rideLoopPollution.png; path = Images/rideLoopPollution.png; sourceTree = "<group>"; };
+		BE6F86CB10C60B74009E1573 /* rideLoopWeather.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rideLoopWeather.png; path = Images/rideLoopWeather.png; sourceTree = "<group>"; };
+		BE6F86CC10C60B74009E1573 /* rideMotorAssist1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rideMotorAssist1.png; path = Images/rideMotorAssist1.png; sourceTree = "<group>"; };
+		BE6F86CD10C60B74009E1573 /* rideMotorAssist2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rideMotorAssist2.png; path = Images/rideMotorAssist2.png; sourceTree = "<group>"; };
+		BE6F86CE10C60B74009E1573 /* rideMotorAssist3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rideMotorAssist3.png; path = Images/rideMotorAssist3.png; sourceTree = "<group>"; };
+		BE6F86CF10C60B74009E1573 /* rideMotorExercise1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rideMotorExercise1.png; path = Images/rideMotorExercise1.png; sourceTree = "<group>"; };
+		BE6F86D010C60B74009E1573 /* rideMotorExercise2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rideMotorExercise2.png; path = Images/rideMotorExercise2.png; sourceTree = "<group>"; };
+		BE6F86D110C60B74009E1573 /* rideMotorExercise3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rideMotorExercise3.png; path = Images/rideMotorExercise3.png; sourceTree = "<group>"; };
+		BE6F86D210C60B74009E1573 /* titleAboutDataSharing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = titleAboutDataSharing.png; path = Images/titleAboutDataSharing.png; sourceTree = "<group>"; };
+		BE6F86D310C60B74009E1573 /* titleAnalyzeCommunity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = titleAnalyzeCommunity.png; path = Images/titleAnalyzeCommunity.png; sourceTree = "<group>"; };
+		BE6F86D410C60B74009E1573 /* titleAnalyzeEnvironment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = titleAnalyzeEnvironment.png; path = Images/titleAnalyzeEnvironment.png; sourceTree = "<group>"; };
+		BE6F86D510C60B74009E1573 /* titleAnalyzeHealth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = titleAnalyzeHealth.png; path = Images/titleAnalyzeHealth.png; sourceTree = "<group>"; };
+		BE6F86D610C60B74009E1573 /* titleInfo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = titleInfo.png; path = Images/titleInfo.png; sourceTree = "<group>"; };
+		BE6F86D710C60B74009E1573 /* titleInfo_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = titleInfo_on.png; path = Images/titleInfo_on.png; sourceTree = "<group>"; };
+		BE6F882010C63491009E1573 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		BE7CE4D310B7174200FB5286 /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		BE91ACDA10B4376200A59C15 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		BE91ACEC10B4387300A59C15 /* EAAccessoryManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAAccessoryManager.h; sourceTree = "<group>"; };
+		BE91ACED10B4387300A59C15 /* EAAccessory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAAccessory.h; sourceTree = "<group>"; };
+		BE91ACEE10B4387300A59C15 /* EASession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EASession.h; sourceTree = "<group>"; };
+		BE91ACF010B438D000A59C15 /* ExternalAccessory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExternalAccessory.h; sourceTree = "<group>"; };
+		BE91AD0910B43CB200A59C15 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = Images/background.png; sourceTree = "<group>"; };
+		BE91AD1510B4417F00A59C15 /* battery.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = battery.png; path = Images/battery.png; sourceTree = "<group>"; };
+		BE91AD1610B4417F00A59C15 /* bluetooth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bluetooth.png; path = Images/bluetooth.png; sourceTree = "<group>"; };
+		BE91ADB510B470F500A59C15 /* gear-down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "gear-down.png"; path = "Images/gear-down.png"; sourceTree = "<group>"; };
+		BE91ADB610B470F500A59C15 /* gear-up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "gear-up.png"; path = "Images/gear-up.png"; sourceTree = "<group>"; };
+		BEEE6BCE11B7E86E001D0DB8 /* libExternalAccessory.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libExternalAccessory.a; sourceTree = "<group>"; };
+		BEF9655510C7938E0064D2A7 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				BE91ACDB10B4376200A59C15 /* AudioToolbox.framework in Frameworks */,
+				BE264C7D10C4E1C90026DCD6 /* MapKit.framework in Frameworks */,
+				BE6F882110C63491009E1573 /* QuartzCore.framework in Frameworks */,
+				BEF9655610C7938E0064D2A7 /* CoreLocation.framework in Frameworks */,
+				BEEE6BCF11B7E86E001D0DB8 /* libExternalAccessory.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BE91ACEC10B4387300A59C15 /* EAAccessoryManager.h */,
+				BE91ACED10B4387300A59C15 /* EAAccessory.h */,
+				BE91ACEE10B4387300A59C15 /* EASession.h */,
+				BE91ACF010B438D000A59C15 /* ExternalAccessory.h */,
+				1D3623240D0F684500981E51 /* CopenCycleAppDelegate.h */,
+				1D3623250D0F684500981E51 /* CopenCycleAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* CopenCycleViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* CopenCycleViewController.m */,
+				BE264BC510C4C6670026DCD6 /* CopenCycleMainViewController.h */,
+				BE264BC610C4C6670026DCD6 /* CopenCycleMainViewController.m */,
+				BE264BCC10C4C7870026DCD6 /* CopenCycleSplashViewController.h */,
+				BE264BCD10C4C7870026DCD6 /* CopenCycleSplashViewController.m */,
+				BE264C2210C4CCF80026DCD6 /* CopenCycleRideViewController.h */,
+				BE264C2310C4CCF80026DCD6 /* CopenCycleRideViewController.m */,
+				BE264C6310C4E0060026DCD6 /* CopenCycleAnalyzeViewController.h */,
+				BE264C6410C4E0060026DCD6 /* CopenCycleAnalyzeViewController.m */,
+				BE6F86B610C60A9A009E1573 /* CopenCycleShareViewController.h */,
+				BE6F86B710C60A9A009E1573 /* CopenCycleShareViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* CopenCycle.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				BE264C7C10C4E1C90026DCD6 /* MapKit.framework */,
+				BE6F882010C63491009E1573 /* QuartzCore.framework */,
+				BEF9655510C7938E0064D2A7 /* CoreLocation.framework */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* CopenCycle_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BE91AD0810B43C9E00A59C15 /* Images */,
+				BE7CE4D310B7174200FB5286 /* Entitlements.plist */,
+				8D1107310486CEB800E47090 /* CopenCycle-Info.plist */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				2899E5210DE3E06400AC0155 /* CopenCycleViewController.xib */,
+				BE264B8710C4BC090026DCD6 /* CopenCycleSplashViewController.xib */,
+				BE264B8A10C4BCBA0026DCD6 /* CopenCycleMainViewController.xib */,
+				BE264C2410C4CCF80026DCD6 /* CopenCycleRideViewController.xib */,
+				BE264C6510C4E0060026DCD6 /* CopenCycleAnalyzeViewController.xib */,
+				BE6F86B810C60A9A009E1573 /* CopenCycleShareViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BEEE6BCE11B7E86E001D0DB8 /* libExternalAccessory.a */,
+				BE91ACDA10B4376200A59C15 /* AudioToolbox.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE91AD0810B43C9E00A59C15 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				BE1589E910CB7303009D957D /* Icon.png */,
+				BE6F86BC10C60B74009E1573 /* analyzeBg.png */,
+				BE6F86BD10C60B74009E1573 /* analyzeCommunityDetail.png */,
+				BE6F86BE10C60B74009E1573 /* analyzeEnvironmentDetail.png */,
+				BE6F86BF10C60B74009E1573 /* analyzeGraphView.png */,
+				BE6F86C010C60B74009E1573 /* analyzeGraphView_on.png */,
+				BE6F86C110C60B74009E1573 /* analyzeHealthDetail.png */,
+				BE6F86C210C60B74009E1573 /* analyzeMap.png */,
+				BE6F86C310C60B74009E1573 /* analyzeMapView.png */,
+				BE6F86C410C60B74009E1573 /* analyzeMapView_on.png */,
+				BE6F86C510C60B74009E1573 /* analyzeShareThisTrip.png */,
+				BE6F86C610C60B74009E1573 /* analyzeShareThisTrip_on.png */,
+				BE6F86C710C60B74009E1573 /* rideGear2.png */,
+				BE6F86C810C60B74009E1573 /* rideGear3.png */,
+				BE6F86C910C60B74009E1573 /* rideLoopFriend.png */,
+				BE6F86CA10C60B74009E1573 /* rideLoopPollution.png */,
+				BE6F86CB10C60B74009E1573 /* rideLoopWeather.png */,
+				BE6F86CC10C60B74009E1573 /* rideMotorAssist1.png */,
+				BE6F86CD10C60B74009E1573 /* rideMotorAssist2.png */,
+				BE6F86CE10C60B74009E1573 /* rideMotorAssist3.png */,
+				BE6F86CF10C60B74009E1573 /* rideMotorExercise1.png */,
+				BE6F86D010C60B74009E1573 /* rideMotorExercise2.png */,
+				BE6F86D110C60B74009E1573 /* rideMotorExercise3.png */,
+				BE6F86D210C60B74009E1573 /* titleAboutDataSharing.png */,
+				BE6F86D310C60B74009E1573 /* titleAnalyzeCommunity.png */,
+				BE6F86D410C60B74009E1573 /* titleAnalyzeEnvironment.png */,
+				BE6F86D510C60B74009E1573 /* titleAnalyzeHealth.png */,
+				BE6F86D610C60B74009E1573 /* titleInfo.png */,
+				BE6F86D710C60B74009E1573 /* titleInfo_on.png */,
+				BE6F86AD10C608A3009E1573 /* titleAnalyze.png */,
+				BE6F86AE10C608A3009E1573 /* titleInfoBlank.png */,
+				BE6F869B10C606AA009E1573 /* analyzeCommunity.png */,
+				BE6F869C10C606AA009E1573 /* analyzeCommunity_on.png */,
+				BE6F869D10C606AA009E1573 /* analyzeEnvironment.png */,
+				BE6F869E10C606AA009E1573 /* analyzeEnvironment_on.png */,
+				BE6F869F10C606AA009E1573 /* analyzeGreenMile.png */,
+				BE6F86A010C606AA009E1573 /* analyzeGreenMile_on.png */,
+				BE6F86A110C606AA009E1573 /* analyzeHealth.png */,
+				BE6F86A210C606AA009E1573 /* analyzeHealth_on.png */,
+				BE6F86A310C606AA009E1573 /* analyzeMyLastTrip.png */,
+				BE264C8610C4E34A0026DCD6 /* titleBack.png */,
+				BE264C8710C4E34A0026DCD6 /* titleBack_on.png */,
+				BE264C5D10C4D7460026DCD6 /* rideLoopCalories.png */,
+				BE264C5610C4D4E20026DCD6 /* rideGear1.png */,
+				BE264C5410C4D3CE0026DCD6 /* rideMotorOff.png */,
+				BE264C5210C4D3310026DCD6 /* rideInfo.png */,
+				BE264C4610C4D1710026DCD6 /* menuAnalyze.png */,
+				BE264C4710C4D1710026DCD6 /* menuAnalyze_on.png */,
+				BE264C4810C4D1710026DCD6 /* menuRide.png */,
+				BE264C4910C4D1710026DCD6 /* menuRide_on.png */,
+				BE264C4A10C4D1710026DCD6 /* menuShare.png */,
+				BE264C4B10C4D1710026DCD6 /* menuShare_on.png */,
+				BE264C4410C4D0000026DCD6 /* rideLoopBg.png */,
+				BE264C3810C4CDF10026DCD6 /* rideMotorDn.png */,
+				BE264C3910C4CDF10026DCD6 /* rideMotorDn_off.png */,
+				BE264C3A10C4CDF10026DCD6 /* rideMotorDn_on.png */,
+				BE264C3B10C4CDF10026DCD6 /* rideMotorUp.png */,
+				BE264C3C10C4CDF10026DCD6 /* rideMotorUp_off.png */,
+				BE264C3D10C4CDF10026DCD6 /* rideMotorUp_on.png */,
+				BE264C2C10C4CD620026DCD6 /* rideGearDn.png */,
+				BE264C2D10C4CD620026DCD6 /* rideGearDn_off.png */,
+				BE264C2E10C4CD620026DCD6 /* rideGearDn_on.png */,
+				BE264C2F10C4CD620026DCD6 /* rideGearUp.png */,
+				BE264C3010C4CD620026DCD6 /* rideGearUp_off.png */,
+				BE264C3110C4CD620026DCD6 /* rideGearUp_on.png */,
+				BE264B9810C4C23B0026DCD6 /* mainAnalyze.png */,
+				BE264B9910C4C23B0026DCD6 /* mainAnalyze_on.png */,
+				BE264B9A10C4C23B0026DCD6 /* mainRide.png */,
+				BE264B9B10C4C23B0026DCD6 /* mainRide_on.png */,
+				BE264B9C10C4C23B0026DCD6 /* mainShare.png */,
+				BE264B9D10C4C23B0026DCD6 /* mainShare_on.png */,
+				BE264B9310C4BF960026DCD6 /* menuBatt.png */,
+				BE264B9410C4BF960026DCD6 /* menuBlank.png */,
+				BE264B8F10C4BE400026DCD6 /* menuHome.png */,
+				BE264B9010C4BE400026DCD6 /* menuHome_on.png */,
+				BE264B8D10C4BCE60026DCD6 /* mainBg.png */,
+				BE264B8410C4BAF10026DCD6 /* mainSplash.png */,
+				BE91ADB510B470F500A59C15 /* gear-down.png */,
+				BE91ADB610B470F500A59C15 /* gear-up.png */,
+				BE91AD1510B4417F00A59C15 /* battery.png */,
+				BE91AD1610B4417F00A59C15 /* bluetooth.png */,
+				BE91AD0910B43CB200A59C15 /* background.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* CopenCycle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "CopenCycle" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CopenCycle;
+			productName = CopenCycle;
+			productReference = 1D6058910D05DD3D006BFB54 /* CopenCycle.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "CopenCycle" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* CopenCycle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* CopenCycleViewController.xib in Resources */,
+				BE91AD0A10B43CB200A59C15 /* background.png in Resources */,
+				BE91AD1710B4417F00A59C15 /* battery.png in Resources */,
+				BE91AD1810B4417F00A59C15 /* bluetooth.png in Resources */,
+				BE91ADB710B470F500A59C15 /* gear-down.png in Resources */,
+				BE91ADB810B470F500A59C15 /* gear-up.png in Resources */,
+				BE7CE4D410B7174200FB5286 /* Entitlements.plist in Resources */,
+				BE264B8510C4BAF10026DCD6 /* mainSplash.png in Resources */,
+				BE264B8810C4BC090026DCD6 /* CopenCycleSplashViewController.xib in Resources */,
+				BE264B8B10C4BCBA0026DCD6 /* CopenCycleMainViewController.xib in Resources */,
+				BE264B8E10C4BCE60026DCD6 /* mainBg.png in Resources */,
+				BE264B9110C4BE400026DCD6 /* menuHome.png in Resources */,
+				BE264B9210C4BE400026DCD6 /* menuHome_on.png in Resources */,
+				BE264B9510C4BF960026DCD6 /* menuBatt.png in Resources */,
+				BE264B9610C4BF960026DCD6 /* menuBlank.png in Resources */,
+				BE264B9E10C4C23B0026DCD6 /* mainAnalyze.png in Resources */,
+				BE264B9F10C4C23B0026DCD6 /* mainAnalyze_on.png in Resources */,
+				BE264BA010C4C23B0026DCD6 /* mainRide.png in Resources */,
+				BE264BA110C4C23B0026DCD6 /* mainRide_on.png in Resources */,
+				BE264BA210C4C23B0026DCD6 /* mainShare.png in Resources */,
+				BE264BA310C4C23B0026DCD6 /* mainShare_on.png in Resources */,
+				BE264C2610C4CCF80026DCD6 /* CopenCycleRideViewController.xib in Resources */,
+				BE264C3210C4CD620026DCD6 /* rideGearDn.png in Resources */,
+				BE264C3310C4CD620026DCD6 /* rideGearDn_off.png in Resources */,
+				BE264C3410C4CD620026DCD6 /* rideGearDn_on.png in Resources */,
+				BE264C3510C4CD620026DCD6 /* rideGearUp.png in Resources */,
+				BE264C3610C4CD620026DCD6 /* rideGearUp_off.png in Resources */,
+				BE264C3710C4CD620026DCD6 /* rideGearUp_on.png in Resources */,
+				BE264C3E10C4CDF10026DCD6 /* rideMotorDn.png in Resources */,
+				BE264C3F10C4CDF10026DCD6 /* rideMotorDn_off.png in Resources */,
+				BE264C4010C4CDF10026DCD6 /* rideMotorDn_on.png in Resources */,
+				BE264C4110C4CDF10026DCD6 /* rideMotorUp.png in Resources */,
+				BE264C4210C4CDF10026DCD6 /* rideMotorUp_off.png in Resources */,
+				BE264C4310C4CDF10026DCD6 /* rideMotorUp_on.png in Resources */,
+				BE264C4510C4D0000026DCD6 /* rideLoopBg.png in Resources */,
+				BE264C4C10C4D1710026DCD6 /* menuAnalyze.png in Resources */,
+				BE264C4D10C4D1710026DCD6 /* menuAnalyze_on.png in Resources */,
+				BE264C4E10C4D1710026DCD6 /* menuRide.png in Resources */,
+				BE264C4F10C4D1710026DCD6 /* menuRide_on.png in Resources */,
+				BE264C5010C4D1710026DCD6 /* menuShare.png in Resources */,
+				BE264C5110C4D1710026DCD6 /* menuShare_on.png in Resources */,
+				BE264C5310C4D3310026DCD6 /* rideInfo.png in Resources */,
+				BE264C5510C4D3CE0026DCD6 /* rideMotorOff.png in Resources */,
+				BE264C5710C4D4E20026DCD6 /* rideGear1.png in Resources */,
+				BE264C5E10C4D7460026DCD6 /* rideLoopCalories.png in Resources */,
+				BE264C6710C4E0060026DCD6 /* CopenCycleAnalyzeViewController.xib in Resources */,
+				BE264C8810C4E34A0026DCD6 /* titleBack.png in Resources */,
+				BE264C8910C4E34A0026DCD6 /* titleBack_on.png in Resources */,
+				BE6F86A410C606AA009E1573 /* analyzeCommunity.png in Resources */,
+				BE6F86A510C606AA009E1573 /* analyzeCommunity_on.png in Resources */,
+				BE6F86A610C606AA009E1573 /* analyzeEnvironment.png in Resources */,
+				BE6F86A710C606AA009E1573 /* analyzeEnvironment_on.png in Resources */,
+				BE6F86A810C606AA009E1573 /* analyzeGreenMile.png in Resources */,
+				BE6F86A910C606AA009E1573 /* analyzeGreenMile_on.png in Resources */,
+				BE6F86AA10C606AA009E1573 /* analyzeHealth.png in Resources */,
+				BE6F86AB10C606AA009E1573 /* analyzeHealth_on.png in Resources */,
+				BE6F86AC10C606AA009E1573 /* analyzeMyLastTrip.png in Resources */,
+				BE6F86AF10C608A3009E1573 /* titleAnalyze.png in Resources */,
+				BE6F86B010C608A3009E1573 /* titleInfoBlank.png in Resources */,
+				BE6F86BA10C60A9A009E1573 /* CopenCycleShareViewController.xib in Resources */,
+				BE6F86D810C60B74009E1573 /* analyzeBg.png in Resources */,
+				BE6F86D910C60B74009E1573 /* analyzeCommunityDetail.png in Resources */,
+				BE6F86DA10C60B74009E1573 /* analyzeEnvironmentDetail.png in Resources */,
+				BE6F86DB10C60B74009E1573 /* analyzeGraphView.png in Resources */,
+				BE6F86DC10C60B74009E1573 /* analyzeGraphView_on.png in Resources */,
+				BE6F86DD10C60B74009E1573 /* analyzeHealthDetail.png in Resources */,
+				BE6F86DE10C60B74009E1573 /* analyzeMap.png in Resources */,
+				BE6F86DF10C60B74009E1573 /* analyzeMapView.png in Resources */,
+				BE6F86E010C60B74009E1573 /* analyzeMapView_on.png in Resources */,
+				BE6F86E110C60B74009E1573 /* analyzeShareThisTrip.png in Resources */,
+				BE6F86E210C60B74009E1573 /* analyzeShareThisTrip_on.png in Resources */,
+				BE6F86E310C60B74009E1573 /* rideGear2.png in Resources */,
+				BE6F86E410C60B74009E1573 /* rideGear3.png in Resources */,
+				BE6F86E510C60B74009E1573 /* rideLoopFriend.png in Resources */,
+				BE6F86E610C60B74009E1573 /* rideLoopPollution.png in Resources */,
+				BE6F86E710C60B74009E1573 /* rideLoopWeather.png in Resources */,
+				BE6F86E810C60B74009E1573 /* rideMotorAssist1.png in Resources */,
+				BE6F86E910C60B74009E1573 /* rideMotorAssist2.png in Resources */,
+				BE6F86EA10C60B74009E1573 /* rideMotorAssist3.png in Resources */,
+				BE6F86EB10C60B74009E1573 /* rideMotorExercise1.png in Resources */,
+				BE6F86EC10C60B74009E1573 /* rideMotorExercise2.png in Resources */,
+				BE6F86ED10C60B74009E1573 /* rideMotorExercise3.png in Resources */,
+				BE6F86EE10C60B74009E1573 /* titleAboutDataSharing.png in Resources */,
+				BE6F86EF10C60B74009E1573 /* titleAnalyzeCommunity.png in Resources */,
+				BE6F86F010C60B74009E1573 /* titleAnalyzeEnvironment.png in Resources */,
+				BE6F86F110C60B74009E1573 /* titleAnalyzeHealth.png in Resources */,
+				BE6F86F210C60B74009E1573 /* titleInfo.png in Resources */,
+				BE6F86F310C60B74009E1573 /* titleInfo_on.png in Resources */,
+				BE1589EA10CB7303009D957D /* Icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* CopenCycleAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* CopenCycleViewController.m in Sources */,
+				BE264BC710C4C6670026DCD6 /* CopenCycleMainViewController.m in Sources */,
+				BE264BCE10C4C7870026DCD6 /* CopenCycleSplashViewController.m in Sources */,
+				BE264C2510C4CCF80026DCD6 /* CopenCycleRideViewController.m in Sources */,
+				BE264C6610C4E0060026DCD6 /* CopenCycleAnalyzeViewController.m in Sources */,
+				BE6F86B910C60A9A009E1573 /* CopenCycleShareViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = CopenCycle_Prefix.pch;
+				INFOPLIST_FILE = "CopenCycle-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../ExternalAccessory v1/build/Debug-iphoneos\"",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../ExternalAccessory v4/build/Debug-iphoneos\"",
+				);
+				PRODUCT_NAME = CopenCycle;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = CopenCycle_Prefix.pch;
+				INFOPLIST_FILE = "CopenCycle-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../ExternalAccessory v1/build/Debug-iphoneos\"",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../ExternalAccessory v4/build/Debug-iphoneos\"",
+				);
+				PRODUCT_NAME = CopenCycle;
+			};
+			name = Release;
+		};
+		BE7CE4B710B716FB00FB5286 /* Ad Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Alex Winston";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7C70048B-AF95-4A89-9400-13FA2AB6C641";
+				SDKROOT = iphoneos3.1.2;
+			};
+			name = "Ad Hoc";
+		};
+		BE7CE4B810B716FB00FB5286 /* Ad Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = CopenCycle_Prefix.pch;
+				INFOPLIST_FILE = "CopenCycle-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../ExternalAccessory v1/build/Debug-iphoneos\"",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../ExternalAccessory v4/build/Debug-iphoneos\"",
+				);
+				PRODUCT_NAME = CopenCycle;
+			};
+			name = "Ad Hoc";
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.1.2;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.1.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "CopenCycle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				BE7CE4B810B716FB00FB5286 /* Ad Hoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "CopenCycle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				BE7CE4B710B716FB00FB5286 /* Ad Hoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
